@@ -714,7 +714,7 @@ export function createSphere(p)
     p.push();
     p.noStroke();
     p.fill(40, 40, 42, 220);
-    p.translate(-p.width / 2, -p.height / 2);
+    p.translate(-p.width / 1.6, -p.height / 1.6);
     p.rect(16, 16, 550, 200, 8);
     p.fill(229, 231, 235);
     p.textSize(14);
